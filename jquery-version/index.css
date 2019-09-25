@@ -1,0 +1,54 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+#my_select{
+    margin: 11% auto 0;
+    position: relative;
+    width: 210px;
+}
+#my_select>input{
+    width: inherit;
+    height: 40px;
+    border: none;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 530px;
+}
+#my_select>input:focus{
+    border: 1px solid rgb(15, 144, 230);
+}
+#selected_menu{
+    display: none;
+    width: inherit;
+    position:absolute;
+    z-index: 9999;
+}
+#my_lists{
+    margin-top: 20px;
+    width: inherit;
+    background: #fff;
+    overflow: scroll;
+    max-height: 200px;
+    width:530px;
+    border-radius: 4px;
+    border: 1px solid #ff908b;
+}
+#my_lists li{
+    cursor: pointer;
+    width:530px;
+    margin: 6px 0;
+}
+#my_lists li:hover{
+    background-color: #ff908b;
+    cursor: pointer;
+    color: white;
+}
